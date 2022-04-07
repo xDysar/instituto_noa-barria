@@ -1,0 +1,18 @@
+.btn-nav {
+    color: #fff !important;
+    background-color: $color-primary;
+    transition: all .3s ease-in-out;
+    border-radius: 7px;
+    
+    &:hover {
+        color: #fff !important;
+        background-color: $color-secondary;
+    }
+}
+
+.btn {
+    @extend .btn-nav;
+    color: $color-text !important;
+    background-color: $color-tertiary;
+}
+

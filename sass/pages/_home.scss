@@ -1,0 +1,13 @@
+/* HERO */
+.hero {
+    height: (100vh)-10vh;
+    width: 100%;
+    background: map-get($mapsColors, gradiente-naranja), url(../img/person.jpg);
+    @include repeat-cover-fixed-center;
+}
+
+.hero__texts {
+    height: (100vh)-10vh;
+    justify-content: left;
+    align-items: center;
+}

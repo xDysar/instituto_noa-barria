@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto:wght@300;400;500;700&display=swap");
+/* VARIABLES */
+/* Reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+ul {
+  list-style-type: none; }
+
+a {
+  text-decoration: none; }
+
+html {
+  font-family: 'Roboto', sans-serif; }
+
+/* NAV */
+.nav-link {
+  transition: color .3s ease-in-out; }
+  .nav-link:hover {
+    color: #ff7615 !important; }
+
+/* FOOTER */
+footer {
+  background-color: #363434;
+  height: 15vh;
+  width: 100%; }
+
+.foo {
+  height: 15vh; }
+
+.fa-brands {
+  transition: all .3s ease-in-out; }
+  .fa-brands:hover {
+    color: #ff7615 !important;
+    transform: scale(1.2); }
+
+.btn-nav, .btn {
+  color: #fff !important;
+  background-color: #ff7615;
+  transition: all .3s ease-in-out;
+  border-radius: 7px; }
+  .btn-nav:hover, .btn:hover {
+    color: #fff !important;
+    background-color: #363434; }
+
+.btn {
+  color: #7A7A7A !important;
+  background-color: #fff; }
+
+/* HERO */
+.hero {
+  height: 90vh;
+  width: 100%;
+  background: linear-gradient(90deg, rgba(255, 118, 21, 0.5) 0%, rgba(255, 118, 21, 0.5) 100%), url(../img/person.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center; }
+
+.hero__texts {
+  height: 90vh;
+  justify-content: left;
+  align-items: center; }
+
+/* PAGINA NOSOTROS */
+.instituto {
+  height: 20vh;
+  background-color: #ff7615; }
+
+.noa__logo {
+  height: 250px;
+  width: 300px; }
+
+/* MODALIDADES */
+.modalidades {
+  height: auto; }
+
+.modalidades__img {
+  transition: all .3s ease-in-out; }
+  .modalidades__img:hover {
+    transform: scale(1.1); }
+
+.fa-check::before {
+  padding-right: 5px; }
+
+/* PREGUNTAS */
+.preguntas {
+  height: auto;
+  background: linear-gradient(90deg, rgba(255, 118, 21, 0.5) 0%, rgba(255, 118, 21, 0.5) 100%), url(../img/background.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center; }
+
+/* ACORDEON */
+.accordion-item {
+  background-color: transparent;
+  color: #363434; }
+
+.accordion-button {
+  background-color: transparent;
+  border-style: none;
+  border: 1px solid #fff;
+  color: #363434; }
+  .accordion-button:not(.collapsed) {
+    color: #363434;
+    background-color: transparent; }
+  .accordion-button:focus {
+    border-color: #fff;
+    box-shadow: none; }
+
+.accordions-body {
+  border: 1px solid #fff; }
+
+/* ELEGIRNOS */
+.elegirnos {
+  background-color: #fff; }
+
+.fa-solid {
+  color: #ff7615;
+  transition: all .3s ease-in-out; }
+  .fa-solid:hover {
+    transform: scale(1.2); }
+
+@media (max-width: 320px) {
+  .noa__logo {
+    display: none; } }
+
+@media (max-width: 992px) {
+  .nav-link-cta {
+    padding: 5px;
+    display: inline-block; } }
+
+@media (max-height: 850px) {
+  footer {
+    height: auto; }
+  .foo {
+    height: auto; } }

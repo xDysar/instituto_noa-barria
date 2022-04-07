@@ -1,0 +1,21 @@
+// IMPORT FONT
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto:wght@300;400;500;700&display=swap');
+
+// UTILITIES
+@import './utilities/variables';
+@import './utilities/mixins';
+@import './utilities/maps';
+// BASE
+@import './base/reset';
+@import './base/typography';
+// PARTIALS
+@import './partials/header';
+@import './partials/footer';
+// COMPONENTS
+@import './components/button';
+// PAGES
+@import './pages/home';
+@import './pages/nosotros';
+
+// MEDIA QUERIES
+@import './components/media';

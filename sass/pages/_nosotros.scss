@@ -1,0 +1,72 @@
+/* PAGINA NOSOTROS */
+.instituto {
+    height: 20vh;
+    background-color: $color-primary;
+}
+
+.noa__logo {
+    height: 250px;
+    width: 300px;
+}
+
+/* MODALIDADES */
+.modalidades {
+    height: auto;
+}
+.modalidades__img {
+    transition: all .3s ease-in-out;
+    
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+.fa-check::before {
+    padding-right: 5px;
+}
+
+/* PREGUNTAS */
+.preguntas {
+    height: auto;
+    background: map-get($mapsColors, gradiente-naranja), url(../img/background.svg);
+    @include repeat-cover-fixed-center;
+}
+
+/* ACORDEON */
+.accordion-item{
+    background-color: transparent;
+    color: $color-secondary;
+}
+
+.accordion-button {
+    background-color: transparent;
+    border-style: none;
+    border: 1px solid $color-tertiary;
+    color: $color-secondary;
+    
+    &:not(.collapsed) {
+        color: $color-secondary;
+        background-color: transparent;
+    }
+    
+    &:focus {
+        border-color: $color-tertiary;
+        box-shadow: none;
+    }
+}
+
+.accordions-body {
+    border: 1px solid $color-tertiary;
+}
+
+/* ELEGIRNOS */
+.elegirnos {
+    background-color: $color-tertiary;
+}
+.fa-solid {
+    color: $color-primary;
+    transition: all .3s ease-in-out;
+    
+    &:hover {
+        transform: scale(1.2);
+    }
+}

@@ -1,0 +1,19 @@
+/* FOOTER */
+footer {
+    background-color: $color-secondary;
+    height: 15vh;
+    width: 100%;
+}
+
+.foo {
+    height: 15vh;
+}
+
+.fa-brands {
+    transition: all .3s ease-in-out;
+    
+    &:hover {
+        color: $color-primary !important;
+        transform: scale(1.2);
+    }
+}

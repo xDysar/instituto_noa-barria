@@ -1,0 +1,21 @@
+@media (max-width: 320px) {
+    .noa__logo {
+        display: none;
+    }
+}
+
+@media (max-width: 992px) {
+    .nav-link-cta {
+        padding: 5px;
+        display: inline-block;
+    }
+}
+
+@media (max-height: 850px) {
+    footer {
+        height: auto;
+    }
+    .foo  {
+        height: auto;
+    }
+}
