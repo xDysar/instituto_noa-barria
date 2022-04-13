@@ -23,6 +23,10 @@ html {
   .nav-link:hover {
     color: #ff7615 !important; }
 
+.logo {
+  height: 60px;
+  width: 90px; }
+
 /* FOOTER */
 footer {
   background-color: #363434;
@@ -38,18 +42,21 @@ footer {
     color: #ff7615 !important;
     transform: scale(1.2); }
 
-.btn-nav, .btn {
+.btn-nav, .btn, .btn-form {
   color: #fff !important;
   background-color: #ff7615;
   transition: all .3s ease-in-out;
   border-radius: 7px; }
-  .btn-nav:hover, .btn:hover {
+  .btn-nav:hover, .btn:hover, .btn-form:hover {
     color: #fff !important;
     background-color: #363434; }
 
 .btn {
   color: #7A7A7A !important;
   background-color: #fff; }
+
+.btn-form {
+  padding: 10px 40px; }
 
 /* HERO */
 .hero {
@@ -125,6 +132,36 @@ footer {
   transition: all .3s ease-in-out; }
   .fa-solid:hover {
     transform: scale(1.2); }
+
+.card {
+  transition: all .3s ease-in-out; }
+
+.card:hover {
+  transform: scale(1.1); }
+
+.img-card {
+  height: 250px;
+  object-fit: cover; }
+
+textarea {
+  resize: none; }
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #ff7615; }
+
+.form-select:focus {
+  box-shadow: none;
+  border-color: #ff7615; }
+
+.aula {
+  height: 70vh;
+  width: 100%;
+  background: linear-gradient(90deg, rgba(255, 118, 21, 0.5) 0%, rgba(255, 118, 21, 0.5) 100%), url(../../img/login.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center; }
 
 @media (max-width: 320px) {
   .noa__logo {

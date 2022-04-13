@@ -16,3 +16,8 @@
     background-color: $color-tertiary;
 }
 
+.btn-form {
+    @extend .btn-nav; 
+    padding: 10px 40px;
+}
+

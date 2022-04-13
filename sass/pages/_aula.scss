@@ -1,0 +1,6 @@
+.aula {
+    height: (80vh)-10vh;
+    width: 100%;
+    background: map-get($mapsColors, gradiente-naranja), url(../../img/login.jpg);
+    @include repeat-cover-fixed-center;
+}
