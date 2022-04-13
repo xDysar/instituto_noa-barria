@@ -135,9 +135,8 @@ footer {
 
 .card {
   transition: all .3s ease-in-out; }
-
-.card:hover {
-  transform: scale(1.1); }
+  .card:hover {
+    transform: scale(1.1); }
 
 .img-card {
   height: 250px;
@@ -157,11 +156,7 @@ textarea {
 .aula {
   height: 70vh;
   width: 100%;
-  background: linear-gradient(90deg, rgba(255, 118, 21, 0.5) 0%, rgba(255, 118, 21, 0.5) 100%), url(../../img/login.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center; }
+  background: #f2f2f2; }
 
 @media (max-width: 320px) {
   .noa__logo {
