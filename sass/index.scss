@@ -10,7 +10,6 @@
 @import './base/typography';
 // PARTIALS
 @import './partials/header';
-@import './partials/footer';
 // COMPONENTS
 @import './components/button';
 // PAGES
@@ -19,6 +18,7 @@
 @import './pages/cursos';
 @import './pages/contacto';
 @import './pages/aula';
-
+// PARTIALS
+@import './partials/footer';
 // MEDIA QUERIES
 @import './components/media';

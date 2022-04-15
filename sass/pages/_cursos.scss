@@ -1,12 +1,14 @@
+/* CURSOS */
 .card {
     transition: all .3s ease-in-out;
 
     &:hover {
         transform: scale(1.1);
     }
+    
+    .img-card {
+        height: 250px;
+        object-fit: cover;
+    }
 }
-
-.img-card {
-    height: 250px;
-    object-fit: cover;
-}
+/* CURSOS */

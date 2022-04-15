@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto:wght@300;400;500;700&display=swap");
 /* VARIABLES */
-/* Reset */
+/* RESET */
 *,
 *::before,
 *::after {
@@ -14,6 +14,7 @@ ul {
 a {
   text-decoration: none; }
 
+/* RESET */
 html {
   font-family: 'Roboto', sans-serif; }
 
@@ -27,21 +28,8 @@ html {
   height: 60px;
   width: 90px; }
 
-/* FOOTER */
-footer {
-  background-color: #363434;
-  height: 15vh;
-  width: 100%; }
-
-.foo {
-  height: 15vh; }
-
-.fa-brands {
-  transition: all .3s ease-in-out; }
-  .fa-brands:hover {
-    color: #ff7615 !important;
-    transform: scale(1.2); }
-
+/* NAV */
+/* BUTTONS*/
 .btn-nav, .btn, .btn-form {
   color: #fff !important;
   background-color: #ff7615;
@@ -58,6 +46,7 @@ footer {
 .btn-form {
   padding: 10px 40px; }
 
+/* BUTTONS*/
 /* HERO */
 .hero {
   height: 90vh;
@@ -73,6 +62,7 @@ footer {
   justify-content: left;
   align-items: center; }
 
+/* HERO */
 /* PAGINA NOSOTROS */
 .instituto {
   height: 20vh;
@@ -133,15 +123,18 @@ footer {
   .fa-solid:hover {
     transform: scale(1.2); }
 
+/* ELEGIRNOS */
+/* CURSOS */
 .card {
   transition: all .3s ease-in-out; }
   .card:hover {
     transform: scale(1.1); }
+  .card .img-card {
+    height: 250px;
+    object-fit: cover; }
 
-.img-card {
-  height: 250px;
-  object-fit: cover; }
-
+/* CURSOS */
+/* CONTACTO */
 textarea {
   resize: none; }
 
@@ -153,11 +146,35 @@ textarea {
   box-shadow: none;
   border-color: #ff7615; }
 
+/* CONTACTO */
+/* AULA */
 .aula {
   height: 70vh;
   width: 100%;
-  background: #f2f2f2; }
+  background: linear-gradient(90deg, rgba(255, 118, 21, 0.5) 0%, rgba(255, 118, 21, 0.5) 100%), url(../../img/login.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center; }
 
+/* AULA */
+/* FOOTER */
+footer {
+  background-color: #363434;
+  height: 15vh;
+  width: 100%; }
+
+.foo {
+  height: 15vh; }
+
+.fa-brands {
+  transition: all .3s ease-in-out; }
+  .fa-brands:hover {
+    color: #ff7615 !important;
+    transform: scale(1.2); }
+
+/* FOOTER */
+/* MEDIA QUERIES */
 @media (max-width: 320px) {
   .noa__logo {
     display: none; } }
@@ -172,3 +189,5 @@ textarea {
     height: auto; }
   .foo {
     height: auto; } }
+
+/* MEDIA QUERIES */
